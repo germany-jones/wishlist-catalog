@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro</title>
+</head>
+<body>
+    <form method="GET" action="action.php">
+        Nome: <input type="text" name="nome" required><br>
+        Sobrenome: <input type="text" name="sobrenome"><br>
+        eMail: <input type="email" name="email" required><br>
+        Escolha uma Senha: <input type="password" name="Senha" minlength="8"><br>
+        Data de Nascimento: <input type="date" name="nascimento"><br>
+        Sexo: <br>
+            <input type="radio" name="gender" value="masculino">Masculino<br>
+            <input type="radio" name="gender" value="feminino">Feminino<br>
+            <input type="radio" name="gender" value="outro">Outro<br>
+        Qual você usaria?: <br>
+              <input type="checkbox" name="AirMax">Air Max<br>
+              <input type="checkbox" name="Shox">Shox<br>
+              <input type="checkbox" name="VaporMax">VaporMax<br>
+              <input type="checkbox" name="Jordan">Jordan<br>
+              <input type="checkbox" name="AirForce">Air Force<br>
+        Prefiro Outra Marca: <br>
+        <select>
+            <option value="Não" name="Não">Não</option>
+            <option value="Puma" name="Puma">Puma</option>
+            <option value="Adidas" name="Adidas">Adidas</option>
+            <option value="Vans" name="Vans">Vans</option>
+            <option value="New Balance" name="NB">New Balance</option>
+            <option value="Anta" name="Anta">Anta</option>
+            <option value="Diadora" name="Diadora">Diadora</option>
+            <option value="Mizuno" name="Mizuno">Mizuno</option>
+            <option value="Under Armour" name="UA">Under Armour</option>
+        </select>
+                <input type="submit" value="Registrar-se">
+                <input type="reset">
+    </form>
+    
+</body>
+</html>
+
+?
+nome=Fake
+&sobrenome=Ninja
+&email=fake%40gmail.com
+&Senha=fakefake
+&nascimento=2000-01-01
+&gender=on
+&AirMax=on
+&Jordan=on
+&AirForce=on
