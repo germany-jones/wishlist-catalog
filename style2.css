@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 250px
+}
+
+.logos {
+    width: 3%;
+    margin-left: 50px
+}
+
+body {
+    background-image:url(https://images.unsplash.com/photo-1597691420307-20554ef4a069?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+    background-size: cover
+}
+
+li {
+    list-style: none;
+    -webkit-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: 6px 6px 29px #9499a8, -6px -6px 29px #ffffff;
+box-shadow: 6px 6px 29px #9499a8, -6px -6px 29px #ffffff;
+}
