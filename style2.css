@@ -4,12 +4,22 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
-    margin: 250px
+    margin: 160px;
+}
+
+img {
+     margin: 10px;
+     transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .logos {
     width: 3%;
-    margin-left: 50px
+    justify-content: left;
 }
 
 body {
@@ -19,8 +29,4 @@ body {
 
 li {
     list-style: none;
-    -webkit-border-radius: 8px;
-border-radius: 8px;
--webkit-box-shadow: 6px 6px 29px #9499a8, -6px -6px 29px #ffffff;
-box-shadow: 6px 6px 29px #9499a8, -6px -6px 29px #ffffff;
 }
